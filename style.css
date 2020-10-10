@@ -1,0 +1,46 @@
+
+body{
+    background-color: darkgrey;
+}
+p1{
+    font-size: 25px;
+    color: rgb(234, 0, 255);
+    font-family:'Marck Script', sans-serif;
+}
+p{
+    font-size: 20px;
+    color: #00eeff;
+    margin-top: 1px;
+    line-height: 25px;
+}
+
+a{
+    font-family: /*'Marck Script',*/ cursive;
+    color: navy;
+    margin-right: 30px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 1s ease;
+
+}
+a:hover {
+    color: darkred;
+    border-color: darkred;
+    transition: all 0.7s ease;
+
+}
+div{
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 0 0 20px 1px rgba(50,0,0.1);
+
+}
+img{
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;/*
+    display: block;*/
+}
